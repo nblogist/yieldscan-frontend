@@ -14,6 +14,8 @@ Maximizing yield on staking. Starting with Kusama.
   - [Gratitude](#gratitude)
 
 ## Currently supported networks <a name = "supported_networks"></a>
+- [Edgeware Network](https://edgewa.re/)
+- [Polkadot Network](https://polkadot.network/)
 - [Kusama Network](https://kusama.network/)
 
 ## Description <a name = "description"></a>
@@ -25,7 +27,7 @@ This project is funded and supported by the [Web3 Foundation](https://web3.found
 
 ### Pre-requisites <a name = "usage-pre-requisites"></a>
 - PolkadotJS browser extension
-- At least one account on Kusama with enough balance to pay for transaction fees and bond funds.
+- At least one account on Edgeware/Kusama/Polkadot with enough balance to pay for transaction fees and bond funds.
 
 Currently, the app can be used on https://yieldscan.onrender.com/, but the domain is likely to change and shall be updated here.
 

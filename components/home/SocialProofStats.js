@@ -31,7 +31,7 @@ const SocialProofStats = ({ networkName, networkDenom, networkUrl }) => {
 		setLoading(true);
 		setError(false);
 		axios
-			.get(`/${networkUrl}/actors/nominators`)
+			.get(`/${networkUrl}/nominators`)
 			.then(({ data }) => {
 				setNominatorsData(data);
 			})

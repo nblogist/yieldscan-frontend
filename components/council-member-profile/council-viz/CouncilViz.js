@@ -34,7 +34,7 @@ class CouncilViz extends React.Component {
 			valText =
 				this.props.memberInfo.socialInfo.name !== null
 					? this.props.memberInfo.socialInfo.name
-					: this.props.memberInfo.keyStats.stashId;
+					: this.props.memberInfo.accountId;
 			if (valText.length > 11) {
 				valText = valText.slice(0, 5) + "..." + valText.slice(-5);
 			}

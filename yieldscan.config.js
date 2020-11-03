@@ -1,10 +1,22 @@
 // Selected network
 // const selectedNetwork = `Polkadot`;
-const selectedNetwork = `Kusama`;
+// const selectedNetwork = `Kusama`;
+const selectedNetwork = `Edgeware`;
 // const selectedNetwork = `Westend`;
 
 // Substrate networks
 export const networks = [
+	{
+		id: "edgeware",
+		name: "Edgeware",
+		denom: "EDG",
+		coinGeckoDenom: "edgeware",
+		decimalPlaces: 18,
+		addressPrefix: 7,
+		nodeWs: "wss://mainnet1.edgewa.re",
+		erasPerDay: 6,
+		lockUpPeriod: 14,
+	},
 	{
 		id: "polkadot-cc1",
 		name: "Polkadot",

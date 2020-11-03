@@ -130,6 +130,7 @@ const Overview = () => {
 								});
 						} else {
 							setError(true);
+							console.trace('breaking', { value: { targets: nominations } })
 							setNominationsLoading(false);
 						}
 					}

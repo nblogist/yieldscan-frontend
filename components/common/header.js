@@ -223,6 +223,40 @@ const Header = ({ isBase }) => {
 									>
 										<button
 											className={`flex items-center px-4 py-2 text-white text-sm leading-5 ${
+												currentNetwork === "Edgeware"
+													? "cursor-default bg-gray-600"
+													: "hover:bg-gray-700 focus:bg-gray-700"
+											}  focus:outline-none w-full`}
+											role="menuitem"
+											onClick={() => {
+												if (selectedNetwork !== "Edgeware") {
+													setApiInstance(null);
+													setValidatorMap(undefined);
+													// setNominatorsData(undefined);
+													setNomLoading(true);
+													setCookie(null, "networkName", "Edgeware");
+													setCouncilMembers(undefined);
+													setCouncilLoading(true);
+													setStashAccount(null);
+													setAccounts([]);
+													setFilteredAccounts([]);
+													setAccountInfoLoading(false);
+													setSelectedNetwork("Edgeware");
+												}
+												setIsNetworkOpen(!isNetworkOpen);
+											}}
+										>
+											<Avatar
+												name="Edgeware"
+												src="/images/edgeware-logo.png"
+												size="sm"
+												mr={2}
+											/>
+											<span>Edgeware</span>
+										</button>
+
+										<button
+											className={`flex items-center px-4 py-2 text-white text-sm leading-5 ${
 												currentNetwork === "Kusama"
 													? "cursor-default bg-gray-600"
 													: "hover:bg-gray-700 focus:bg-gray-700"
@@ -287,6 +321,7 @@ const Header = ({ isBase }) => {
 											/>
 											<span>Polkadot</span>
 										</button>
+										
 									</div>
 								</PopoverContent>
 							</Popover>

@@ -378,7 +378,7 @@ const Validators = () => {
 						<option value="riskScore">Risk Score</option>
 						<option value="commission">Commission</option>
 						<option value="numOfNominators">Nominators</option>
-						<option value="totalStake">Other Stake</option>
+						<option value="othersStake">Other Stake</option>
 					</Select>
 					<div className="flex items-center justify-between items-center ml-2">
 						<button
@@ -452,7 +452,7 @@ const Validators = () => {
 			/>
 			<div className="fixed left-0 bottom-0 flex-end w-full bg-white">
 				<div className="text-xs text-gray-500 text-right mr-24 mt-4">
-					* Estimated Returns are calculated per era for 100 KSM
+					* Estimated Returns are calculated per era for 100 EDG
 				</div>
 				{stashAccount ? (
 					<div className="flex justify-end mr-24">

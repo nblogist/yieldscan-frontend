@@ -24,7 +24,7 @@ const TopNominatorCard = ({
 				className="flex justify-center items-center text-gray-700"
 				onClick={onProfile}
 			>
-				<span className="text-xs mr-1">View on Polkascan</span>
+				<span className="text-xs mr-1">View on Subscan</span>
 				<ExternalLink size="12px" />
 			</div>
 		</div>
@@ -66,7 +66,7 @@ const Top3Section = ({ nominators = [], networkInfo }) => {
 						dailyEarnings={nominator.dailyEarnings}
 						onProfile={() =>
 							window.open(
-								`https://polkascan.io/kusama/account/${nominator.nomId}`,
+								`https://${networkInfo.coinGeckoDenom}.subscan.io/account/${nominator.nomId}`,
 								"_blank"
 							)
 						}

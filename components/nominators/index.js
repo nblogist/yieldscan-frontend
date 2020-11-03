@@ -26,7 +26,7 @@ const Nominators = () => {
 		setLoading(true);
 		setError(false);
 		axios
-			.get(`/${networkInfo.coinGeckoDenom}/actors/nominators`)
+			.get(`/${networkInfo.coinGeckoDenom}/nominators`)
 			.then(({ data }) => {
 				setNominatorsData(data);
 			})
@@ -164,7 +164,7 @@ const Nominators = () => {
 					</div>
 					<div className="shadow-xl flex flex-col rounded-lg pb-10 h-48 w-64 justify-end pl-10 bg-teal-500 text-white min-w-max-content">
 						<h1 className="text-4xl">
-							{formatCurrency.methods
+							{console.trace(nominatorsData.stats.totalRewards), formatCurrency.methods
 								.formatAmount(
 									Math.trunc(
 										nominatorsData.stats.totalRewards *
@@ -172,17 +172,17 @@ const Nominators = () => {
 									).toString(),
 									networkInfo
 								)
-								.slice(0, -4)}
+								.slice(0, -6)}
 							<span className="text-xl">
 								{formatCurrency.methods
 									.formatAmount(
 										Math.trunc(
-											nominatorsData.stats.totalAmountStaked *
+											nominatorsData.stats.totalRewards *
 												10 ** networkInfo.decimalPlaces
 										).toString(),
 										networkInfo
 									)
-									.slice(-4)}
+									.slice(-5)}
 							</span>
 						</h1>
 						{totalRewardsSubCurrency && (

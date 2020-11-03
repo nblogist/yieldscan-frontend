@@ -149,7 +149,7 @@ const CouncilMemberProfile = () => {
 							{selectedTab === ProfileTabsConfig.VISUALISATION && (
 								<CouncilViz
 									memberInfo={memberInfo}
-									networkName="KUSAMA COUNCIL"
+									networkName="EDGEWARE COUNCIL"
 									networkInfo={networkInfo}
 								/>
 							)}

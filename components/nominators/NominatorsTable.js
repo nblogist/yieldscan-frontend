@@ -22,7 +22,7 @@ const MemberCard = ({
 						{stashId.slice(0, 6) + "..." + stashId.slice(-6)}
 					</span>
 					<div className="flex items-center text-gray-700" onClick={onProfile}>
-						<span className="text-xs mr-1">View on Polkascan</span>
+						<span className="text-xs mr-1">View on Subscan</span>
 						<ExternalLink size="12px" />
 					</div>
 				</div>
@@ -79,7 +79,7 @@ const NominatorsTable = ({ nominators = [], networkInfo }) => {
 						totalAmountStaked={member.nomtotalStake}
 						onProfile={() =>
 							window.open(
-								`https://polkascan.io/${networkInfo.coinGeckoDenom}/account/${member.nomId}`,
+								`https://${networkInfo.coinGeckoDenom}.subscan.io/account/${member.nomId}`,
 								"_blank"
 							)
 						}

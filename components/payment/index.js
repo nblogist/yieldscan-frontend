@@ -63,7 +63,7 @@ const SuccessfullyBonded = ({ transactionHash, onConfirm, networkInfo }) => {
 				the link below:
 			</span>
 			<a
-				href={`https://kusama.subscan.io/block/${transactionHash}`}
+				href={`https://edgeware.subscan.io/block/${transactionHash}`}
 				className="mt-6 text-blue-400"
 				target="_blank"
 			>

@@ -139,7 +139,7 @@ const RewardDestinationModal = withSlideIn(
 									<h1 className="text-xl">Compound Rewards</h1>
 									<span className="text-gray-600 text-sm">
 										Your rewards will be locked for staking for the unbonding
-										period (approx. 7 days on Kusama)
+										period (approx. 14 days on Edgeware)
 									</span>
 									<div className="mt-5">
 										<CompoundRewardSlider
