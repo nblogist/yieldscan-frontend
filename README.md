@@ -2,7 +2,7 @@
 Maximizing yield on staking. Starting with Kusama.
 
 ## Table of contents
-  - [Currently supported networks](#supported_networks)
+  - [Currently supported networks](#supported_networks) 
   - [Description](#description)
   - [Usage](#usage)
       - [Pre-requisites](#usage-pre-requisites)
