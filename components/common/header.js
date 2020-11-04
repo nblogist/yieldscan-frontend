@@ -255,7 +255,7 @@ const Header = ({ isBase }) => {
 											<span>Edgeware</span>
 										</button>
 
-										<button
+										{/* <button
 											className={`flex items-center px-4 py-2 text-white text-sm leading-5 ${
 												currentNetwork === "Kusama"
 													? "cursor-default bg-gray-600"
@@ -321,7 +321,7 @@ const Header = ({ isBase }) => {
 											/>
 											<span>Polkadot</span>
 										</button>
-										
+										 */}
 									</div>
 								</PopoverContent>
 							</Popover>

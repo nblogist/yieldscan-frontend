@@ -1,5 +1,5 @@
-# YieldScan
-Maximizing yield on staking. Starting with Kusama.
+# YieldScan - Edgeware
+Maximizing yield on staking on Edgeware.
 
 ## Table of contents
   - [Currently supported networks](#supported_networks) 
@@ -15,8 +15,8 @@ Maximizing yield on staking. Starting with Kusama.
 
 ## Currently supported networks <a name = "supported_networks"></a>
 - [Edgeware Network](https://edgewa.re/)
-- [Polkadot Network](https://polkadot.network/)
-- [Kusama Network](https://kusama.network/)
+<!-- - [Polkadot Network](https://polkadot.network/)
+- [Kusama Network](https://kusama.network/) -->
 
 ## Description <a name = "description"></a>
 We aim to solve the problems of information asymmetry in identifying and optimizing returns on staking, reducing time and capital costs for stakers to make staking decisions.
@@ -27,9 +27,9 @@ This project is funded and supported by the [Web3 Foundation](https://web3.found
 
 ### Pre-requisites <a name = "usage-pre-requisites"></a>
 - PolkadotJS browser extension
-- At least one account on Edgeware/Kusama/Polkadot with enough balance to pay for transaction fees and bond funds.
+- At least one account on Edgeware with enough balance to pay for transaction fees and bond funds.
 
-Currently, the app can be used on https://yieldscan.onrender.com/, but the domain is likely to change and shall be updated here.
+Currently, the app can be used on https://edgeware-yieldscan.vercel.app/, but the domain is likely to change and shall be updated here.
 
 > :warning: **IMPORTANT:** Please note that this project is in early beta stage and bugs and issues are to be expected.
 >
@@ -37,7 +37,7 @@ Currently, the app can be used on https://yieldscan.onrender.com/, but the domai
 
 ### Usage Instructions <a name = "usage-instructions"></a>
 
-1. Go to [YieldScan](https://yieldscan.onrender.com/). You will be greeted with the following page:
+1. Go to [YieldScan](https://edgeware-yieldscan.vercel.app/). You will be greeted with the following page:
 ![YieldScan Landing Page](https://i.imgur.com/5ZJtyL7.png)
 
 2. Enter your budget and click "Calculate Returns". You will be redirected to the returns calculator, which will show you your potential earnings and allow you to tweak your staking preferences to get varied results:
@@ -75,7 +75,7 @@ Click on "Connect my wallet". You will be prompted by PolkadotJS to authorize Yi
 ### Getting Started
 - Clone the repository:
 	```bash
-	git clone https://github.com/buidl-labs/yieldscan-frontend
+	git clone https://github.com/nblogist/yieldscan-frontend
 	```
 - Install the dependencies:
 	```bash
@@ -101,7 +101,7 @@ Click on "Connect my wallet". You will be prompted by PolkadotJS to authorize Yi
 	SENTRY_PROJECT=<your-sentry-project>
 	SENTRY_AUTH_TOKEN=<your-sentry-auth-token>
 	```
-	Note: You can checkout the backend codebase [here](https://github.com/buidl-labs/yieldscan-backend-ts).
+	Note: You can checkout the backend codebase [here](https://github.com/nblogist/yieldscan-backend-ts).
 	
 	Useful resources:
 	
