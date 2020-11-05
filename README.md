@@ -15,8 +15,6 @@ Maximizing yield on staking on Edgeware.
 
 ## Currently supported networks <a name = "supported_networks"></a>
 - [Edgeware Network](https://edgewa.re/)
-<!-- - [Polkadot Network](https://polkadot.network/)
-- [Kusama Network](https://kusama.network/) -->
 
 ## Description <a name = "description"></a>
 We aim to solve the problems of information asymmetry in identifying and optimizing returns on staking, reducing time and capital costs for stakers to make staking decisions.
