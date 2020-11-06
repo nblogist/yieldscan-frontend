@@ -27,7 +27,7 @@ This project is funded and supported by the [Web3 Foundation](https://web3.found
 - PolkadotJS browser extension
 - At least one account on Edgeware with enough balance to pay for transaction fees and bond funds.
 
-Currently, the app can be used on https://edgeware-yieldscan.vercel.app/, but the domain is likely to change and shall be updated here.
+Currently, the app can be used on https://yieldscan-edgeware.vercel.app/, but the domain is likely to change and shall be updated here.
 
 > :warning: **IMPORTANT:** Please note that this project is in early beta stage and bugs and issues are to be expected.
 >
@@ -35,7 +35,7 @@ Currently, the app can be used on https://edgeware-yieldscan.vercel.app/, but th
 
 ### Usage Instructions <a name = "usage-instructions"></a>
 
-1. Go to [YieldScan](https://edgeware-yieldscan.vercel.app/). You will be greeted with the following page:
+1. Go to [YieldScan](https://yieldscan-edgeware.vercel.app/). You will be greeted with the following page:
 ![YieldScan Landing Page](https://i.imgur.com/5ZJtyL7.png)
 
 2. Enter your budget and click "Calculate Returns". You will be redirected to the returns calculator, which will show you your potential earnings and allow you to tweak your staking preferences to get varied results:
