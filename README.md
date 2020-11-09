@@ -139,3 +139,17 @@ To learn more about Next.js, take a look at the following resources:
 ## Gratitude <a name = "gratitude"></a>
 
 ![](https://github.com/buidl-labs/polkadot-chains-indexer/blob/master/.github/web3%20foundation_grants_badge_black.png)
+
+## Contributing
+
+Please submit pull requests to us using the format described while making a pull request.
+
+## Authors
+
+* **Furqan Ahmed** - Edgeware Integration - [Contact](https://www.flow.page/FurqanAhmed)
+
+See also the list of [contributors](https://github.com/nblogist/yieldscan-frontend/contributors) who participated in this project.
+
+## Acknowledgments
+
+* [Drew Stone](https://github.com/drewstone/)
